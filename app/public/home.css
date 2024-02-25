@@ -1,0 +1,86 @@
+
+
+body{
+  font-family: Karla;
+  background: url(background.jpg)no-repeat center center fixed;
+  background-size: cover;
+
+}
+
+h1{
+  font-size: 50px;
+}
+
+.topnav {
+
+  /*background-color: white;*/
+  overflow: hidden;
+  font-family: 'Karla';
+  color: white;
+}
+
+
+
+/* Style the links inside the navigation bar */
+.topnav a {
+
+  float: right;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+
+}
+
+@media only screen and (max-width: 600px) {
+  .topnav a{
+    /*font-size: 0.9em;*/
+    padding: 14px 10px;
+  }
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: none;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: none;
+  color: grey;
+
+
+}
+
+.blog {
+
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 15px;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.blog:hover {
+    cursor: pointer;
+    height:275px;
+    width: 275px;
+  }
+
+ .footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   color: white;
+   text-align: center;
+}
