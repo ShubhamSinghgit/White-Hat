@@ -12,11 +12,13 @@ Roommate finding madeeasy using a well designed survey and matchmaking algorithm
 
 Steps to run the project 
 
-1. Install the required packages 
+1. clone the project 
+
+2. Install the required packages 
 ---> npm install 
 
-2. run the project: 
+3. run the project: 
 ---> npm start 
 
-3. in your browser open :
+4. in your browser open :
 ---> http://localhost:3000/home.html
